@@ -1,0 +1,128 @@
+body{
+    margin:0;
+}
+.container{
+    height: 100%;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+.headder{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    height: 58px;
+}
+.headder_right{
+    display: flex;
+    flex-direction: row;
+    padding-left: 32px;
+    padding-right: 4px;
+}
+.gm_im{
+    display: flex;
+    align-items: center;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+.gm,.im{
+    display: inline-block;
+    padding-left: 15px;
+}
+.image_link,.gmail_link{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+.google_apps,.profile_image{
+    display: flex;
+    padding: 4px;
+}
+.ga_link,.pi_link{
+    display: flex;
+    align-items: center;
+    padding:4px;
+}
+.ga{
+    opacity: 0.5;
+    width: 24px;
+}
+.image_link:hover,.gmail_link:hover{
+    text-decoration: underline;
+}
+.ga_link:hover,.pi_link:hover{
+    background-color:rgba(60,64,67,.08); 
+    border-radius: 50%;
+}
+
+/*==============================*/
+.lgo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*==============================*/
+.searchbar{
+    margin: 0rem 6rem;
+    padding: 20px;
+    max-height:160px ;
+}
+.search_containter{
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin-top: 6px;
+}
+.sc_input{  
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+}
+.sc_svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.svg_container{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    padding-bottom: 2px;
+}
+.s_iconbox{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+}
+.sc_inputbox{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.sc_input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.input{
+    border: none;
+}
+.input:focus-visible{
+    outline: none;
+}
+.goxjub{
+    padding: 8px 8px;
+    width: 24px;
+    height: 24px;
+}
