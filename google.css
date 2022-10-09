@@ -66,21 +66,20 @@ body{
 }
 /*==============================*/
 .searchbar{
-    margin: 0rem 6rem;
     padding: 20px;
     max-height:160px ;
 }
 .search_containter{
+    margin:0 auto;
     width: auto;
     max-width: 584px;
     position: relative;
-    margin-top: 6px;
+    padding-top: 6px;
 }
 .sc_input{  
     flex: 1;
     display: flex;
     padding: 5px 8px 0 14px;
-    height: 44px;
     background: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
@@ -122,7 +121,8 @@ body{
     outline: none;
 }
 .goxjub{
-    padding: 8px 8px;
+    padding: 4px;
+    padding-right: 8px;
     width: 24px;
     height: 24px;
 }
