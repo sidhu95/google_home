@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: arial,sans-serif;
 }
 .container{
     height: 100%;
@@ -178,4 +179,40 @@ body{
     opacity: 1;
     visibility: visible;
 
+}
+#oferdlang{
+    text-align: center;
+}
+#oferdlang>a,
+.KxwPGc>a{
+    padding:0 4px;
+}
+.languages{
+    height:30px;
+}
+.footer{
+    font-size: 15px;
+    color: #70757a;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 30px;
+}
+.pHiOh{
+    text-decoration: none;
+    color: #70757a;
+}
+@media screen and (min-width: 1200px){
+    .footer2{
+        display: flex;
+        justify-content: space-between;
 }
